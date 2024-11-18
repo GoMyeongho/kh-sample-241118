@@ -4,15 +4,42 @@
 // 대문자로 시작해야 함(소문자로 시작하면 html 태그로 판단 해버림)
 // 부모 컴포넌트에서 자식 컴포넌트로 정보를 전달할 때는 props 로 전달해햐 함.
 // props 는 키워드가 아님
+// 구조 분해 또는 비구조화 할당
+
+// const WelcomeProps = (props) => {
+// 	return(
+// 		<>
+// 			<h1>안녕하세요 {props.name}님</h1>
+// 			<p>직업 : {props.job}</p>
+// 			<p>주소 : {props.addr}</p>
+// 			{props.isAdult ? (<p>성인 입니다.</p>) : (<p>미성년자 입니다.</p>)}
+// 		</>
+// 	);
+// };
+
 const WelcomeProps = (props) => {
+	const {name, job, addr, isAdult, info} = props;
 	return(
 		<>
-			<h1>안녕하세요 {props.name}님</h1>
-			<p>직업 : {props.job}</p>
-			<p>주소 : {props.addr}</p>
-			{props.isAdult ? (<p>성인 입니다.</p>) : (<p>미성년자 입니다.</p>)}
+			<h1>안녕하세요 {name}님</h1>
+			<p>직업 : {job}</p>
+			<p>주소 : {addr}</p>
+			{isAdult ? (<p>성인 입니다.</p>) : (<p>미성년자 입니다.</p>)}
+			<p> 정보 : {info.product}, 날짜 : {info.date}</p>
 		</>
 	);
 };
+
+// const WelcomeProps = ({name, job, addr, isAdult, info}) => {
+// 	return(
+// 		<>
+// 			<h1>안녕하세요 {name}님</h1>
+// 			<p>직업 : {job}</p>
+// 			<p>주소 : {addr}</p>
+// 			{isAdult ? (<p>성인 입니다.</p>) : (<p>미성년자 입니다.</p>)}
+// 			<p> 정보 : {info.product}, 날짜 : {info.date}</p>
+// 		</>
+// 	);
+// };
 
 export default WelcomeProps;
