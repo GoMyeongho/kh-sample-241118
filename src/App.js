@@ -8,8 +8,10 @@ import "./App.css"
 //import Counter from "./js/ClassComponent"
 //import Say from "./js/Say";
 //import Clock from "./js/Clock";
-import EventPractice from "./js/EventPractice";
-
+// import EventPractice from "./js/EventPractice";
+// import DropDownComponent from "./js/DropDownComponent";
+// import RadioButton from "./js/RadioButton";
+import TableMap from "./js/TableMap";
 
 // const productInfo = {
 //   date: "2024-09-01",
@@ -19,7 +21,10 @@ import EventPractice from "./js/EventPractice";
 function App() {
   return (
     <>
-      <EventPractice/>
+      <TableMap/>
+      {/*<RadioButton/>*/}
+      {/*<DropDownComponent/>*/}
+      {/*<EventPractice/>*/}
       {/*<Clock/>*/}
       {/*<Say/>*/}
       {/*<Counter/>*/}
