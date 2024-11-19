@@ -4,7 +4,12 @@ import "./App.css"
 //import WelcomeProps from "./js/WelcomeProps";
 //import Articles from "./js/Articles";
 //import MyComponent from "./js/MyComponent";
-import BoxComponent from "./js/BoxComponent";
+//import BoxComponent from "./js/BoxComponent";
+//import Counter from "./js/ClassComponent"
+//import Say from "./js/Say";
+//import Clock from "./js/Clock";
+import EventPractice from "./js/EventPractice";
+
 
 // const productInfo = {
 //   date: "2024-09-01",
@@ -14,8 +19,12 @@ import BoxComponent from "./js/BoxComponent";
 function App() {
   return (
     <>
-      <BoxComponent>첫 번째 박스 입니다.</BoxComponent>
-      <BoxComponent>두 번째 박스 입니다.</BoxComponent>
+      <EventPractice/>
+      {/*<Clock/>*/}
+      {/*<Say/>*/}
+      {/*<Counter/>*/}
+      {/*<BoxComponent>첫 번째 박스 입니다.</BoxComponent>
+      <BoxComponent>두 번째 박스 입니다.</BoxComponent>*/}
       {/*<MyComponent/>*/}
       {/*<Articles/>*/}
       {/*<JsxSyntax/>*/}
