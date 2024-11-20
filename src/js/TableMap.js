@@ -74,5 +74,6 @@ const TableMap = () => {
 		</Table>
 	)
 }
+// map 에 리턴 없이 하려면 소괄호
 // 조건부 렌더링이 없으면 데이터가 없으면 오류가 남
 export default TableMap;
