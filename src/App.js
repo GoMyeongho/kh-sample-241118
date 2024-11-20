@@ -11,7 +11,11 @@ import "./App.css"
 // import EventPractice from "./js/EventPractice";
 // import DropDownComponent from "./js/DropDownComponent";
 // import RadioButton from "./js/RadioButton";
-import TableMap from "./js/TableMap";
+// import TableMap from "./js/TableMap";
+// import UserList from "./js/UserList";
+// import TodoList from "./js/TodoList";
+
+
 
 // const productInfo = {
 //   date: "2024-09-01",
@@ -21,7 +25,9 @@ import TableMap from "./js/TableMap";
 function App() {
   return (
     <>
-      <TableMap/>
+      {/*<TodoList/>*/}
+      {/*<UserList/>*/}
+      {/*<TableMap/>*/}
       {/*<RadioButton/>*/}
       {/*<DropDownComponent/>*/}
       {/*<EventPractice/>*/}
