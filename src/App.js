@@ -13,8 +13,12 @@ import "./App.css"
 // import RadioButton from "./js/RadioButton";
 // import TableMap from "./js/TableMap";
 // import UserList from "./js/UserList";
-// import TodoList from "./js/TodoList";
-
+// import ToDoList from "./js/TodoList";
+// import Practice1 from "./js/Practice1";
+// import NameCard from "./js/NameCard";
+// import InfoEffect from "./js/InfoEffect";
+// import ReducerCnt from "./js/ReducerState";
+import Average from "./js/Average";
 
 
 // const productInfo = {
@@ -25,7 +29,12 @@ import "./App.css"
 function App() {
   return (
     <>
-      {/*<TodoList/>*/}
+      <Average/>
+      {/*<ReducerCnt/>*/}
+      {/*<InfoEffect/>*/}
+      {/*<NameCard/>*/}
+      {/*<Practice1/>*/}
+      {/*<ToDoList/>*/}
       {/*<UserList/>*/}
       {/*<TableMap/>*/}
       {/*<RadioButton/>*/}
