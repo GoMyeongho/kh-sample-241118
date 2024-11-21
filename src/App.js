@@ -18,8 +18,9 @@ import "./App.css"
 // import NameCard from "./js/NameCard";
 // import InfoEffect from "./js/InfoEffect";
 // import ReducerCnt from "./js/ReducerState";
-import Average from "./js/Average";
-
+// import Average from "./js/Average";
+// import CreateRef from "./js/RefEx1";
+import InnerValueKeep from "./js/RefEx2";
 
 // const productInfo = {
 //   date: "2024-09-01",
@@ -29,7 +30,9 @@ import Average from "./js/Average";
 function App() {
   return (
     <>
-      <Average/>
+      <InnerValueKeep/>
+      {/*<CreateRef />*/}
+      {/*<Average/>*/}
       {/*<ReducerCnt/>*/}
       {/*<InfoEffect/>*/}
       {/*<NameCard/>*/}
