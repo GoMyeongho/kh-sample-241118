@@ -1,4 +1,4 @@
-import { useRef, useEffect } from "react";
+import {useRef, useEffect, useState} from "react";
 
 const InnerValueKeep = () => {
 	// 특정한 DOM 의 위치를 가리키기 위해서 사용
@@ -13,10 +13,16 @@ const InnerValueKeep = () => {
 	
 	// 컴포넌트 내부 변수값 유지
 	const count = useRef(0);
+	// let 을 사용하면 리렌더링시 초기화된다.
+	// let count = 0;
+	const [state, setState] = useState(false);
 	
 	const handleClick = () => {
 		count.current++;
 		alert(`클릭 횟수 : ${count.current}`);
+		// count++;
+		// alert(`클릭 횟수 : ${count}`);
+		setState(!state);
 	}
 	return (
 		<>

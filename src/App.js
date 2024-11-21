@@ -20,7 +20,15 @@ import "./App.css"
 // import ReducerCnt from "./js/ReducerState";
 // import Average from "./js/Average";
 // import CreateRef from "./js/RefEx1";
-import InnerValueKeep from "./js/RefEx2";
+// import InnerValueKeep from "./js/RefEx2";
+
+
+
+
+
+
+
+
 
 // const productInfo = {
 //   date: "2024-09-01",
@@ -30,7 +38,7 @@ import InnerValueKeep from "./js/RefEx2";
 function App() {
   return (
     <>
-      <InnerValueKeep/>
+      {/*<InnerValueKeep/>*/}
       {/*<CreateRef />*/}
       {/*<Average/>*/}
       {/*<ReducerCnt/>*/}
